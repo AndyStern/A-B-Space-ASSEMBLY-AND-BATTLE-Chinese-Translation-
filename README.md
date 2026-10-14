@@ -1,2 +1,30 @@
-# A-B-Space-ASSEMBLY-AND-BATTLE-Chinese-Translation-
-THE STORY IN THE SPACE 
+# 《拼装战机：太空传说》(A&B Space) 中文汉化版
+
+本项目为经典 Flash 太空弹幕组装射击游戏 **《Assembly And Battle: The Story in the Space》（A&B Space）** 的完整简体中文汉化版。
+
+## 汉化特性
+
+- **全剧情汉化（388 条对话）**：完整翻译所有主线与支线台词、旁白及商店/工厂/修理厂交互对话，角色名称同步汉化（迈克尔、老王、汤姆、舰长、猴子船长、机器人S1、X军首领等），完整保留原版头像切换与镜头跟随逻辑。
+- **全界面与字节码汉化**：汉化全部 37 个关卡简报、12 条战斗提示、11 首配乐标题、零件类别（机身、机翼、引擎、武器、其他）及所有确认弹窗、新手引导与制作人员名单。
+- **内嵌思源黑体矢量字库**：将 958 个汉字与标点字形编译注入 SWF 的 `DefineFont3` 矢量字库标签中，在任何平台或模拟器下均无缺字、乱码问题。
+
+## 运行方式
+
+### 方式一：通过 GitHub Pages 在线游玩（推荐）
+1. 将本仓库中的 `a_and_b_space_zh.html` 重命名为 `index.html`（或直接上传 `a&b_space_zh.swf` 并配合 Ruffle 网页加载器）。
+2. 在 GitHub 仓库中打开 **Settings -> Pages**，将 **Branch** 设置为 `main`（根目录 `/`）并保存。
+3. 访问生成的 GitHub Pages 链接，点击 **“在线运行游戏 (Ruffle 模拟器)”** 即可在浏览器中直接游玩。
+
+### 方式二：本地模拟器运行
+1. 打开 `a_and_b_space_zh.html` 并点击顶部按钮下载 `a&b_space_zh.swf`。
+2. 使用 [Ruffle 桌面版](https://www.google.com/search?q=https%3A%2F%2Fruffle.rs%2F) 或 Adobe Flash Player Projector (v10+) 打开 `a&b_space_zh.swf`。
+
+## 操作说明
+
+| 按键 / 操作 | 功能说明 |
+| :--- | :--- |
+| **鼠标移动** | 鼠标模式下控制战机飞行方向与推进速度（距离越远推力越大）；键盘模式下控制武器瞄准方向 |
+| **鼠标左键（按住）** | 开火射击 |
+| **W / A / D** | 键盘模式下控制加速推进（W）与左右转向（A / D） |
+| **Q** | 切换鼠标操控模式 / 键盘操控模式 |
+| **空格键（Space）** | 启动超级喷射推进（需安装引擎且能量槽回满） |
